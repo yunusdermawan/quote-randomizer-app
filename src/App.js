@@ -1,6 +1,11 @@
+import React from "react";
+import QuoteBox from "./QuoteBox";
+
 function App() {
     return (
-        <h1>Hello</h1>
+        <>
+            <QuoteBox />
+        </>
     )
 }
 
