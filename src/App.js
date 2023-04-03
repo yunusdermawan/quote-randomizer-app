@@ -1,10 +1,9 @@
 import React from "react";
-import QuoteBox from "./QuoteBox";
+import QuoteBox from "./component/QuoteBox";
 import { useState } from "react";
-import Randomizer from "./Randomizer";
+import Randomizer from "./component/Randomizer";
 
 function App() {
-    const [quote, setQuote] = React.useState({<Randomizer />})
 
     return (
         <>

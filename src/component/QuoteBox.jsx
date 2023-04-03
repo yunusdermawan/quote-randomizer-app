@@ -1,3 +1,5 @@
+import './QuoteBox.css'
+
 const QuoteBox = ({quote, handleNewQuote}) => (
     <div id="quote-box">
       <p id="text">{quote.text}</p>
